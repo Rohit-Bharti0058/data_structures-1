@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int a[5]={1,2,3,4,5};
+int n;
+int index;
+
+scanf("%d",&n);
+for(int i=0;i<5;i++)
+{
+if(a[i]==n)
+{
+index=i;
+}
+else
+{
+printf("Number not exists!!");
+}
+}
+printf("Number is at position %d ",index);
+return 0;
+}
+
